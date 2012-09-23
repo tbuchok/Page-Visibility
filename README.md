@@ -1,5 +1,5 @@
 # Pagevisibility
-Simple testing of some common questions for Flash advertising published inside a third-party IFRAME.
+Simple testing of some common IFRAME questions.
 
 ## Server set up
 Most of the results will require that `index.html` be run from a server. 
