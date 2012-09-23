@@ -1,0 +1,23 @@
+<script type="text/javascript">
+  var spongecell = {};
+  spongecell.expand = function () {
+    var spongecellIFRAME = document.getElementById('spongecellIFRAME');
+    spongecellIFRAME.style.height = "500px";
+    spongecellIFRAME.style.width = "500px";
+    console.log('publisher.expand called!');
+  };
+</script>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="250">
+  <param name="movie" value="PageVisibility.swf?12345" />
+  <param name="allowFullScreen" value="true" />
+  <!--[if !IE]>-->
+  <object type="application/x-shockwave-flash" data="PageVisibility.swf?12345" width="300" height="250">
+  <param name="allowFullScreen" value="true" />
+  <param name="allowScriptAccess" value="all">
+  <!--<![endif]-->
+    <p>Alternative content</p>
+  <!--[if !IE]>-->
+  </object>
+  <!--<![endif]-->
+</object>

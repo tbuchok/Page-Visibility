@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>IFRAME Visibility and Fun.</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	</head>
+	<body>
+      <script type="text/javascript">
+        top.publisher = {};
+        publisher.expand = function () {
+          var spongecellIFRAME = document.getElementById('spongecellIFRAME');
+          spongecellIFRAME.style.height = "500px";
+          spongecellIFRAME.style.width = "500px";
+          console.log('publisher.expand called!');
+        };
+      </script>
+      <iframe id="spongecellIFRAME" src="/PageVisibility.html" style="width: 300px; height: 250px;" scrolling="no"></iframe>
+	</body>
+</html>
